@@ -1,7 +1,6 @@
 module.exports = {
-  'extends': ['eslint:recommended', 'plugin:react/recommended'],
+  'extends': ['eslint:recommended'],
   plugins: [
-      'react',
       'async-await'
   ],
   parserOptions: {
@@ -33,7 +32,6 @@ module.exports = {
     'eol-last': 2,
     'eqeqeq': [2, 'always', {'null': 'ignore'}],
     'handle-callback-err': [2, '^(err|error)$' ],
-    'indent': [2, 2, { 'SwitchCase': 1 }],
-    'jsx-quotes': [2, 'prefer-single']
+    'indent': [2, 2, { 'SwitchCase': 1 }]
   }
 }
