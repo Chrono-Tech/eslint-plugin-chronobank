@@ -55,7 +55,7 @@ This package overrides several rules:
 | `'eqeqeq': [2, 'always', {'null': 'ignore'}]` | [link](http://eslint.org/docs/rules/eqeqeq) | Enforce using of type-safe equality operators except the cases when it is `isNil` check |
 | `'handle-callback-err': [2, '^(err&#124;error)$' ]` | [link](http://eslint.org/docs/rules/handle-callback-err) | Enforce handling of callback errors |
 | `'indent': [2, 2, { 'SwitchCase': 1 }]` | [link](http://eslint.org/docs/rules/indent) | Enforce indent in switch statements |
-| `'space-before-function-paren': [2, 2]` | [link](http://eslint.org/docs/rules/space-before-function-paren) | Enforce space before function parenthesis |
+| `'space-before-function-paren': ['error', 'always']` | [link](http://eslint.org/docs/rules/space-before-function-paren) | Enforce space before function parenthesis |
 
 ## License
 

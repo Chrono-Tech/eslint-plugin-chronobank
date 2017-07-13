@@ -33,6 +33,6 @@ module.exports = {
     'eqeqeq': [2, 'always', {'null': 'ignore'}],
     'handle-callback-err': [2, '^(err|error)$' ],
     'indent': [2, 2, { 'SwitchCase': 1 }],
-    'space-before-function-paren': [2, 2]
+    'space-before-function-paren': ['error', 'always']
   }
 }
